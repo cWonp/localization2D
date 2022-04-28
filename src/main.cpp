@@ -1,5 +1,7 @@
 #include <ros/ros.h>
 
+#include "localization2d/ekf.hpp"
+
 #include <sensor_msgs/PointCloud2.h>
 #include <sensor_msgs/point_cloud2_iterator.h>
 #include <sensor_msgs/LaserScan.h>
